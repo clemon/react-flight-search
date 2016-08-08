@@ -1,6 +1,6 @@
 Chet Lemon - chetjlemon@gmail.com
 ------------------------
-Shurt Flight search
+React Flight search
 
 File Structure:                       View Hierarchy:
 ```
@@ -27,3 +27,8 @@ File Structure:                       View Hierarchy:
   - karma.conf.js
   - gulpfile.babel.js
 ```
+how to run:
+
+npm install
+gulp watch
+go to localhost:8080
