@@ -1,0 +1,20 @@
+.form-control {
+  min-width: 400px;
+}
+
+// change input bar highlight colors
+// red for invalid flightNum
+input.invalid.form-control:focus {
+  border-color: @invalid-red;
+  box-shadow: 0 0 15px @invalid-red-shadow;
+}
+
+// green for valid flightNum
+input.form-control:focus {
+  border-color: @valid-green;
+  box-shadow: 0 0 15px @valid-green-shadow;
+}
+
+input.btn {
+  margin-top: 32px;
+}
